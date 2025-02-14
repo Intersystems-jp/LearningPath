@@ -1,0 +1,85 @@
+/* This file is kept intentionally blank inside the jekyll-github-theme
+ * It gets imported at the end of custom.css
+ * Its purpose is for users of the theme to be able to add css rules from a blank file
+ *   these get simply added to the ones already active in the layout.
+ */
+.collection-header {
+   font-weight: bold;
+   color:darkblue;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 1.4rem;
+   /*text-transform: uppercase; */
+   padding-left: 30px;
+}
+
+.details-header {
+   font-weight: bold;
+   color:darkblue;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 2.0rem;
+   /*text-transform: uppercase; */
+}
+.details-summary {
+   font-weight: bold;
+   /*color:rgb(7, 27, 240);*/
+   max-height: 38px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 1.6rem;
+   /*text-transform: uppercase; */
+   text-decoration:underline;
+   text-decoration-color:darkblue;
+}
+.details-summary:hover {
+   color : #ff7043;
+   cursor: pointer;
+}
+
+.details-contents {
+   /*color:teal;*/
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 1.4rem;
+   /*text-transform: uppercase; */
+}
+
+.transcript {
+   color:teal;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 1.4rem;
+   /*text-transform: uppercase; */
+}
+
+.transcript2 details {
+   max-height: 38px;
+   transition: all 1s;
+   overflow: hidden;
+ }
+ 
+ .transcript2 details[open] {
+   max-height: 300px;
+ }
+ .transcript2 .content {
+   max-height: 262px;
+   overflow-y: scroll;
+   color:teal;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 1.4rem;
+   /*text-transform: uppercase; */
+}
+
+.image-container {
+   display: flex;
+   justify-content: space-around; /* 子要素を均等に配置します */
+   align-items: center; /* 子要素を縦方向の中心に揃えます */
+   height: 100%;
+}
+
+.image-container img {
+   max-width: 95%; /* 画像の最大幅を設定します */
+   height: auto; /* 画像の縦横比を維持します */
+}

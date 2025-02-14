@@ -1,0 +1,64 @@
+title: InterSystems Learning Path
+description: >
+  InterSystems製品を学習するためのパスをペルソナ別でご紹介しています。
+remote_theme: sighingnow/jekyll-gitbook
+
+toc:
+    enabled: true
+    h_max: 2
+syntax_highlighter_style: colorful
+
+tracker:
+  google_analytics: G-1LQVED30HC
+
+collections:
+  pages:
+    output: true
+    label: Getting Started!
+    permalink: /:collection/:path/
+  serverside:
+    output: true
+    label: serverside
+    permalink: /:collection/:path/
+  interop:
+    output: true
+    label: Interoperability
+    permalink: /:collection/:path/
+  languages:
+    output: true
+    label: languages
+    permalink: /:collection/:path/
+  fhir:
+    output: true
+    label: FHIR
+    permalink: /:collection/:path/
+  genai:
+    output: true
+    label: GENAI
+    permalink: /:collection/:path/
+  analytics:
+    output: true
+    label: analytics
+    permalink: /:collection/:path/
+  containers:
+    output: true
+    label: コンテナ
+    permalink: /:collection/:path/
+  administrators:
+    output: true
+    label: 管理者向け
+    permalink: /:collection/:path/
+
+
+ordered_collections:
+  - posts
+  - serverside
+  - languages
+  - interop
+  - fhir
+  - genai
+  - analytics
+  - containers
+  - administrators
+
+favicon_path: ./assets/icons/favicon.ico
