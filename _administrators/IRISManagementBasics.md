@@ -1,5 +1,5 @@
 ---
-title: InterSysetms IRIS 管理の基本
+title: InterSystems IRIS 管理の基本
 date: 2024-12-03
 permalink: IRISManagementBasics.html
 layout: post
