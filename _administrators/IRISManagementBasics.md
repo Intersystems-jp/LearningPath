@@ -198,6 +198,8 @@ InterSystems IRIS コンテナ・イメージからコンテナを開始する�
 
 - <a href="https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=GORIENT_ch_security" target="_blank">ドキュメント：InterSystems IRIS セキュリティ</a>
 
+- <a href="https://jp.community.intersystems.com/node/584470" target="_blank">記事：InterSystems 製品のセキュリティの基本：ユーザとロール</a>
+
 - ビデオ（英語／日本語字幕）：InterSystems 製品 のユーザとロールについて
 
 {% include youtube.html id="YgFz26hD4vc" %}
